@@ -1,0 +1,53 @@
+
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+.tab-pane {
+    -fx-background-color: #f4f4f4;
+}
+
+.tab {
+    -fx-background-color: #e0e0e0;
+    -fx-padding: 10px 20px;
+}
+
+.tab:selected {
+    -fx-background-color: #2196F3;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.text-field, .text-area {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+    -fx-padding: 5px;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.list-view {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+}
+
+.alert {
+    -fx-border-color: #ff9800;
+}
